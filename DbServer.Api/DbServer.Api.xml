@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DbServer.Api</name>
+    </assembly>
+    <members>
+        <member name="T:DbServer.Api.Controllers.CheckingAccountController">
+            <summary>
+            Post stest
+            </summary>
+        </member>
+        <member name="M:DbServer.Api.Controllers.CheckingAccountController.#ctor(DbServer.Domain.Interfaces.ICheckingAccountRepository,DbServer.Service.Interface.ICheckingAccountService,AutoMapper.IMapper)">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="M:DbServer.Api.Controllers.CheckingAccountController.Post(DbServer.Api.DTO.CheckingAccountDTO)">
+            <summary>
+            Cria uma nova conta corrente
+            </summary>
+            <param name="item">Objeto com os dados da conta</param> 
+        </member>
+        <member name="M:DbServer.Api.Controllers.CheckingAccountController.Get(System.String)">
+            <summary>
+            Retorna o saldo da conta
+            </summary>
+            <param name="numero">Número da conta corrente ex: "000123"</param> 
+        </member>
+        <member name="T:DbServer.Api.Controllers.PostController">
+            <summary>
+            Post stest
+            </summary>
+        </member>
+        <member name="M:DbServer.Api.Controllers.PostController.#ctor(DbServer.Domain.Interfaces.IPostRepository,DbServer.Service.Interface.IPostService,AutoMapper.IMapper)">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="M:DbServer.Api.Controllers.PostController.Post(DbServer.Api.DTO.PostDTO)">
+            <summary>
+            Cria um novo lançamento
+            </summary>
+            <param name="item">Conta de Origem, Destino e valor para transação</param> 
+        </member>
+    </members>
+</doc>
