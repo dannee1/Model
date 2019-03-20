@@ -10,13 +10,13 @@ go
 use modelo
 go
 
-create table ContaCorrente(
+create table CheckingAccount(
 	ID int identity primary key,
 	Number varchar(200)
 )
 go
 
-create table Lancamento(
+create table Post(
 	ID int identity primary key,
 	IDOriginAccount int,
 	IDDestinationAccount int,
