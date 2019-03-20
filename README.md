@@ -13,7 +13,7 @@ Create a database named 'modelo'
 Run the script Database.sql on modelo Database
 
 ### How to execute the application
-To use visual studio 2017 or retore packages and build the project
+To use visual studio 2017 or restore packages and build the project
 
 ### After running
 To access swagger link:
