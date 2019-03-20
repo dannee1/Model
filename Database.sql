@@ -1,9 +1,6 @@
 use master
 go
 
-drop database modelo
-go
-
 create database modelo
 go
 
